@@ -6,10 +6,10 @@ Classe JavaScript que simula um serviço de pagamentos, permitindo registrar pag
 
 ### `pagar(codigoBarras, empresa, valor)`
 Registra um pagamento na lista interna. Cada pagamento armazena:
-- `codigoBarras` — código de barras do boleto
-- `empresa` — nome da empresa
-- `valor` — valor pago
-- `categoria` — `'cara'` se o valor for maior que R$ 100,00, ou `'padrão'` caso contrário
+- `codigoBarras`: código de barras do boleto
+- `empresa`: nome da empresa
+- `valor`: valor pago
+- `categoria` : `'cara'` se o valor for maior que R$ 100,00, ou `'padrão'` caso contrário
 
 ### `consultarUltimoPagamento()`
 Retorna o objeto do último pagamento registrado.
